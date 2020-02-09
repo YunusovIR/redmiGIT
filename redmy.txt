@@ -6,7 +6,27 @@
 /в окне команд прописываем git init // каждая команда начинается с оператора "git"
 3. после ввода команды инициализации внешей папке появится скрытая диектория [ .git ] 
 в папке .git хранится вся информация по вашему проекту. Самыми важными элементами являются objects, refs, HEAD, index. 
-4.
+4.в нашей папке "my gitHub project" создаем текстовый документ и называем его "CODE"
+// в коммандной строке вводим "git status"
+это код нам выдаст следущую строку 
+
+C:\Users\yunusov\Desktop\git\git testing>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        code.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+в этих строках нам говорится что есть неотслеживаемые файлы, и предлогается выполнит комманду
+git add <file> // внашем случае это будет выглядеть git add code.txt
+далее мы должны принять изминения вводим команду git commit -m "coments"
+сново вводим git status и видим что все изминения приняты.
+
+
 
 
 
