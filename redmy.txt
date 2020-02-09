@@ -26,6 +26,14 @@ git add <file> // внашем случае это будет выглядеть git add code.txt
 далее мы должны принять изминения вводим команду git commit -m "coments"
 сново вводим git status и видим что все изминения приняты.
 
+любое изминение в файле должно быть commit "совершит".
+ 
+git init
+git status
+git add <File.*> //если файлов больше двух можно вести команду "git add ."
+git commit -m "cpments" // всегда любой commit коментировать.
+git 
+
 
 
 
