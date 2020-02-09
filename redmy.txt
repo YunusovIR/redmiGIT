@@ -32,7 +32,39 @@ git init
 git status
 git add <File.*> //если файлов больше двух можно вести команду "git add ."
 git commit -m "cpments" // всегда любой commit коментировать.
-git 
+
+как создать ветвь в репозитории
+1. введите коменду git branch name
+2. проверка указания ветки git log --oneline --decorate // эта команда нам говорит где мы находимся. (HEAD -> master, name)
+3. как переключится с ветки master на ветку name // git checkout name
+4. проверяем что мы в ветви name // git log --oneline --decorate // (HEAD -> name, master)
+
+как удалить ветвь в репозитории
+1. git breanch -d name // -d delet
+2. проверяем git log --oneline -- decorate // вы удаляли ветвь name находясь в ней проверка вам покажет что ветвь еще существует
+перейдите в ветвь master и повторите проверку.
+
+как залить файлы в GitHub
+
+1. перейдите на сайт github.com
+2. пройдите регистрацию
+3. создайте новый репозиторий
+4. выберите //
+…or push an existing repository from the command line
+введите в командной строке
+git remote add origin https://github.com/ваш профиль/название репозитория
+git push origin master //если вы создали ветвь и хотите с нее слитьфайлы вводите git push origin ваша ветвь
+
+как скачать ваш репозиторий
+1. на сайте найдите 
+
+
+
+
+
+
+
+
 
 
 
